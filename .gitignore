@@ -1,0 +1,45 @@
+# Environment & Configuration
+.env
+.env.local
+.env.*.local
+
+# Sensitive files
+*.key
+*.pem
+.DS_Store
+
+# Uploads & User-generated content
+uploads/
+uploads/*
+!uploads/.gitkeep
+
+# PHP & Web Server
+vendor/
+composer.lock
+.htaccess
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
+
+# Logs
+*.log
+logs/
+
+# Node (if using)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# PHPMailer (already in repo, can be optional)
+PHPMailer/
